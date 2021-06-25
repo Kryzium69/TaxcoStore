@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="container mx-auto w-full flex justify-between">
+        <div class="flex items-center pl-3">
+            <img class="w-20 h-auto" src="https://lancetalent.com/wp-content/uploads/2017/05/ecommerceok-600x600.png" alt="">
+            <h2 class="text-2xl font-semibold">TaxcoStore</h2>
+        </div>
+        <div class="flex">
+            <div class="relative mr-6 mt-6">
+                <input type="search" class="bg-purple-white shadow rounded border-0 p-3 pl-10" placeholder="Buscar un producto...">
+                <div class="absolute top-1 left-3 pin-r pin-t mt-3 mr-4 text-purple-lighter">
+                    <svg version="1.1" class="h-4 text-dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 52.966 52.966" style="enable-background:new 0 0 52.966 52.966;" xml:space="preserve">
+                      <path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21
+                      c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279
+                      C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19
+                      S32.459,40,21.983,40z"/>
+              
+                  </svg>
+              
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <a href="#">
+                    <img class="w-6 mr-6" src="https://img.icons8.com/android/24/000000/appointment-reminders.png"/>
+                </a>
+                <a href="">
+                    <img class="w-6 mr-6" src="https://img.icons8.com/glyph-neue/64/000000/shopping-cart.png"/>
+                </a>
+                <a href="">
+                    <img class="w-6 mr-6" src="https://img.icons8.com/glyph-neue/64/000000/like.png"/>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex">
+        <aside class="w-1/6 bg-blue-200 h-screen sticky top-0">
+            <div class="flex-col">
+                <a href="#" >
+                    <div class="flex items-center bg-blue-400 hover:bg-blue-400 my-5 py-2">
+                        <img class="w-8 ml-2"src="https://img.icons8.com/flat-round/64/000000/star--v1.png"/>
+                        <h3 class="font-bold text-lg ml-2">Mejores productos</h3>
+                    </div>
+                </a>
+                
+                <a href="#">
+                    <div class="flex items-center hover:bg-blue-400 my-5 py-2">
+                        <img class="w-8 ml-2" src="https://img.icons8.com/cotton/64/000000/express-delivery--v1.png"/>
+                        <h3 class="font-bold text-xl">Envios rapidos</h3>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="flex items-center hover:bg-blue-400 my-5 py-2">
+                        <img class="w-8 ml-2" src="https://img.icons8.com/dusk/64/000000/thumb-up.png"/>
+                        <h3 class="font-bold text-xl">Mas gustados</h3>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="flex items-center hover:bg-blue-400 my-5 py-2">
+                        <img class="w-8 ml-2" src="https://img.icons8.com/doodle/48/000000/discount--v1.png"/>
+                        <h3 class="font-bold text-xl">Descuentos</h3>
+                    </div>
+                </a>
+            </div>
+        </aside>
+        <main class="w-5/6 h-auto bg-blue-100">
+            <div class="">
+                <h1 class="text-center py-5 text-2xl font-bold">Mejores Productos</h1>
+                <div class="w-full bg-red-400 py-5 text-center font-bold text-gray-50 hover:bg-red-600">Hoy tenemos promociones durante 8 horas, aprovechalas!</div>
+            </div>
+
+            <div class="w-11/12 mx-auto flex justify-between flex-wrap">
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike SB Zoom Blazer</h1>
+                      <p class="text-gray-600 text-sm mt-1">Diseñado con una gamuza ligeramente desgastada, el Nike SB Zoom Blazer Mid Premium está inspirado en el calzado deportivo desgastado que has tenido durante años.</p>
+                    </div>
+                    <img class="h-56 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/26a11d80-3f3c-4e29-ab72-d335d74a4c5b/calzado-de-skateboarding-sb-zoom-blazer-mid-premium-Fl1qfb.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">
+                        $2,299
+                        </h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Air Max Pre-Day BeTrue</h1>
+                      <p class="text-gray-600 text-sm mt-1">La colección BeTrue de este año rinde homenaje al orgullo de las comunidades LGBTQIA+ en todo el mundo.El Nike Air Max Pre-Day BeTrue viene con nueve banderas, con cierre por contacto</p>
+                    </div>
+                    <img class="h-56 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7e90a06d-13fa-46d0-8cde-e3f3f0c61363/calzado-air-max-pre-day-betrue.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$2,799</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Blazer Low '77 Vintage</h1>
+                      <p class="text-gray-600 text-sm mt-1">La colección BeTrue de este año rinde homenaje al orgullo de las comunidades LGBTQIA+ en todo el mundo.El Nike Blazer Low '77 Vintage BeTrue viene con nueve banderas</p>
+                    </div>
+                    <img class="h-56 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c7b64afb-c76e-4e80-9965-0917d124d419/calzado-blazer-low-77-vintage-betrue-920rT8.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$2,199</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Air Max 90</h1>
+                      <p class="text-gray-600 text-sm mt-1">Nada como volar, nada más cómodo, nada más probado: el Nike Air Max 90 SE se mantiene fiel a sus raíces originales a la vez que avanza un paso hacia la renovación.Confeccionado con al menos un 20% de su peso en material reciclado, incluye un 9% de corcho en la icónica suela tipo wafle</p>
+                    </div>
+                    <img class="h-56 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/29b0f8bc-c3d7-4aa0-97c0-6f3cdf7cbd53/calzado-air-max-90-se-G5q6XL.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$2,599</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Jordan 'Why Not?' Zer0.4</h1>
+                      <p class="text-gray-600 text-sm mt-1">La velocidad es la arma no tan secreta de Russell Westbrook. Lo suyo es la competencia, el impulso y el musculatura. ¿Y el Jordan 'Why Not?' Zer 0.4, el primero en ofrecer Zoom de doble pila en la parte delantera del pie.</p>
+                    </div>
+                    <img class="h-56 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/491ad3f0-42d1-435e-b5a1-c93ac8c1f821/jordan-why-not-calzado-de-b%C3%A1squetbol-zer0-4-C3jqkK.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$2,899</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Air Max 90</h1>
+                      <p class="text-gray-600 text-sm mt-1">Nada más ligero, nada más cómodo, nada más probado: el Nike Air Max 90 se mantiene fiel a sus raíces con la icónica suela con diseño tipo wafle, los revestimientos cosidos y los detalles clásicos de TPU. Los colores frescos le dan un look moderno. Los colores frescos le dan un look moderno,</p>
+                    </div>
+                    <img class="h-56 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d643af2c-5c40-4964-85ce-3ac10f3905b5/calzado-air-max-90-11RmNc.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$2,399</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="w-full h-44 bg-red-500 flex items-center justify-center">
+                    <p class="text-5xl font-bold">ROPA HOMBRE</p>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Sportswear</h1>
+                      <p class="text-gray-600 text-sm mt-1">Muestra tu pasión por tu país con la playera Nike Sportswear.El ajuste clásico y la tela suave y cómoda te ayudan a enfrentar tu día.</p>
+                    </div>
+                    <img class="h-96 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d55279c2-b3db-49fe-8c6b-d48d50c9a860/playera-sportswear-0BhBq3.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$649</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Fleece Nike Air</h1>
+                      <p class="text-gray-600 text-sm mt-1">La sudadera con capucha Nike Air actualiza un modelo original con una tela Fleece cálida y cepillada en la parte posterior.</p>
+                    </div>
+                    <img class="h-96 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2c729d22-365c-4c27-b135-af42d2ccb128/sudadera-con-capucha-sin-cierre-de-tejido-fleece-air-Md5H6p.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$1,599</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="w-full h-44 bg-pink-500 flex items-center justify-center">
+                    <p class="text-5xl font-bold">ROPA DAMA</p>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Sportswear Essential</h1>
+                      <p class="text-gray-600 text-sm mt-1">Sé fiel a tu look clásico con la sudadera con capucha Nike Sportswear Essential. Está confeccionada con un suave tejido Fleece semicepillado y presenta un look informal que combina con todo.</p>
+                    </div>
+                    <img class="h-96 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ef937675-fea5-4e74-8536-c80deb218e6c/sudadera-con-capucha-sin-cierre-de-tejido-fleece-sportswear-essential-vqQ3Gv.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$839</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Essential</h1>
+                      <p class="text-gray-600 text-sm mt-1">Los pantalones Nike Essential te acompañarán en tu ruta brindándote comodidad, gracias a que están confeccionados con tela ligera y elástica que se mueve contigo. La pretina de perfil bajo ofrece una sensación de suavidad al tiempo que los bolsillos con cierre brindan almacenamiento.</p>
+                    </div>
+                    <img class="h-96 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3c27471b-a83a-414d-b84c-b9e10805e53d/pantalones-de-running-de-7-8-essential-wM90Hw.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$1,199</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+<!--  -->
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Nike Sportswear</h1>
+                      <p class="text-gray-600 text-sm mt-1">Confeccionados con tejido Woven ligero, los shorts Nike Sportswear te ofrecen un estilo clásico, deportivo y cómodo para usarse todo el día.Este producto está fabricado al 100% con fibras de poliéster reciclado. Color que se muestra: Negro/Blanco/Blanco los shorts Nike Sportswear te ofrecen un estilo clásico</p>
+                    </div>
+                    <img class="h-96 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/896aa137-d7c2-4cb7-94fe-01721ecd468c/shorts-tejidos-sportswear-r73pW4.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$649</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden my-10">
+                    <div class="px-4 py-2">
+                      <h1 class="text-gray-900 font-bold text-3xl uppercase">Paris Saint-Germain</h1>
+                      <p class="text-gray-600 text-sm mt-1">El jersey del Paris Saint-Germain local Stadium cuenta con una tela muy transpirable para absorber el sudor de la piel mientras animas a tu equipo.Este producto está fabricado al 100% con fibras de poliéster reciclado.</p>
+                    </div>
+                    <img class="h-96 w-full object-cover mt-2" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3bf08426-6f09-486f-8e48-3a32780f29b8/jersey-de-f%C3%BAtbol-del-paris-saint-germain-local-2021-22-stadium-57nKpP.png" alt="NIKE AIR">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                      <h1 class="text-gray-200 font-bold text-xl">$1,599</h1>
+                      <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
